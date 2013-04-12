@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E7A602D1718030B00E7EB4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7A602C1718030B00E7EB4F /* Foundation.framework */; };
+		3E7A60301718030B00E7EB4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A602F1718030B00E7EB4F /* main.m */; };
+		3E7A60341718030B00E7EB4F /* AppleScriptRunner.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E7A60331718030B00E7EB4F /* AppleScriptRunner.1 */; };
+		3E7A603E1718031C00E7EB4F /* ScriptRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A603B1718031C00E7EB4F /* ScriptRunner.m */; };
+		3E7A603F1718031C00E7EB4F /* SVCodeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A603D1718031C00E7EB4F /* SVCodeUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E7A60271718030B00E7EB4F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3E7A60341718030B00E7EB4F /* AppleScriptRunner.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E7A60291718030B00E7EB4F /* AppleScriptRunner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppleScriptRunner; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7A602C1718030B00E7EB4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E7A602F1718030B00E7EB4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E7A60321718030B00E7EB4F /* AppleScriptRunner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppleScriptRunner-Prefix.pch"; sourceTree = "<group>"; };
+		3E7A60331718030B00E7EB4F /* AppleScriptRunner.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AppleScriptRunner.1; sourceTree = "<group>"; };
+		3E7A603A1718031C00E7EB4F /* ScriptRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptRunner.h; sourceTree = "<group>"; };
+		3E7A603B1718031C00E7EB4F /* ScriptRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptRunner.m; sourceTree = "<group>"; };
+		3E7A603C1718031C00E7EB4F /* SVCodeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVCodeUtils.h; sourceTree = "<group>"; };
+		3E7A603D1718031C00E7EB4F /* SVCodeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVCodeUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E7A60261718030B00E7EB4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7A602D1718030B00E7EB4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E7A60201718030B00E7EB4F = {
+			isa = PBXGroup;
+			children = (
+				3E7A602E1718030B00E7EB4F /* AppleScriptRunner */,
+				3E7A602B1718030B00E7EB4F /* Frameworks */,
+				3E7A602A1718030B00E7EB4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E7A602A1718030B00E7EB4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A60291718030B00E7EB4F /* AppleScriptRunner */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E7A602B1718030B00E7EB4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A602C1718030B00E7EB4F /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E7A602E1718030B00E7EB4F /* AppleScriptRunner */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A602F1718030B00E7EB4F /* main.m */,
+				3E7A603A1718031C00E7EB4F /* ScriptRunner.h */,
+				3E7A603B1718031C00E7EB4F /* ScriptRunner.m */,
+				3E7A603C1718031C00E7EB4F /* SVCodeUtils.h */,
+				3E7A603D1718031C00E7EB4F /* SVCodeUtils.m */,
+				3E7A60331718030B00E7EB4F /* AppleScriptRunner.1 */,
+				3E7A60311718030B00E7EB4F /* Supporting Files */,
+			);
+			path = AppleScriptRunner;
+			sourceTree = "<group>";
+		};
+		3E7A60311718030B00E7EB4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A60321718030B00E7EB4F /* AppleScriptRunner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E7A60281718030B00E7EB4F /* AppleScriptRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7A60371718030B00E7EB4F /* Build configuration list for PBXNativeTarget "AppleScriptRunner" */;
+			buildPhases = (
+				3E7A60251718030B00E7EB4F /* Sources */,
+				3E7A60261718030B00E7EB4F /* Frameworks */,
+				3E7A60271718030B00E7EB4F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleScriptRunner;
+			productName = AppleScriptRunner;
+			productReference = 3E7A60291718030B00E7EB4F /* AppleScriptRunner */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E7A60211718030B00E7EB4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = yangzexin;
+			};
+			buildConfigurationList = 3E7A60241718030B00E7EB4F /* Build configuration list for PBXProject "AppleScriptRunner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E7A60201718030B00E7EB4F;
+			productRefGroup = 3E7A602A1718030B00E7EB4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E7A60281718030B00E7EB4F /* AppleScriptRunner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E7A60251718030B00E7EB4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7A60301718030B00E7EB4F /* main.m in Sources */,
+				3E7A603E1718031C00E7EB4F /* ScriptRunner.m in Sources */,
+				3E7A603F1718031C00E7EB4F /* SVCodeUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E7A60351718030B00E7EB4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E7A60361718030B00E7EB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E7A60381718030B00E7EB4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppleScriptRunner/AppleScriptRunner-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E7A60391718030B00E7EB4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AppleScriptRunner/AppleScriptRunner-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E7A60241718030B00E7EB4F /* Build configuration list for PBXProject "AppleScriptRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7A60351718030B00E7EB4F /* Debug */,
+				3E7A60361718030B00E7EB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7A60371718030B00E7EB4F /* Build configuration list for PBXNativeTarget "AppleScriptRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7A60381718030B00E7EB4F /* Debug */,
+				3E7A60391718030B00E7EB4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E7A60211718030B00E7EB4F /* Project object */;
+}
